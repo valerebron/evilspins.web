@@ -1,2 +1,2 @@
-// The player package owns the Card model; re-export it so app code has one source of truth.
-export type { CardType as Card, RankType as Rank, Suit } from 'evilspins-player'
+// The player package owns the card model; re-export it so app code has one source of truth.
+export type { CardData, RankType as Rank, Suit } from 'evilspins-player'
