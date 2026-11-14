@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>evilspins.web</title>
+    <script>
+      // GitHub Pages fallback for client-side routes (e.g. /title-artist).
+      // Redirect to the app and let src/main.ts restore the original path.
+      location.replace('/?p=' + encodeURIComponent(location.pathname + location.search + location.hash))
+    </script>
+  </head>
+  <body></body>
+</html>
